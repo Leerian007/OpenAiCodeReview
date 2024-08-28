@@ -26,6 +26,6 @@ jobs:
 
       - name: Run Java code
         run: |
-          cd openai-code-review-sdk/src/main/java
+          cd OpenAiCodeReview/openai-code-review-sdk/src/main/java
           javac top/guxx/middleware/sdk/OpenAiCodeReview.java
           java top.guxx.middleware.sdk.OpenAiCodeReview
